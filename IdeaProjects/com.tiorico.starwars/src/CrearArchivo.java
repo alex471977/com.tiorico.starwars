@@ -12,6 +12,7 @@ public class CrearArchivo {
         FileWriter archivo = new FileWriter(pelicula.title()+".json");
         archivo.write(gson.toJson(pelicula));
         archivo.close();;
+        // fin de codigo.
 
     }
 }
